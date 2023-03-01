@@ -3,6 +3,7 @@ import 'package:get/get.dart';
 import 'package:color_grading_switch/Example_switch/Myswitch.dart';
 import 'package:color_grading_switch/MarkFav_App/MarkFavScreen.dart';
 import 'HomeScreen.dart';
+import 'ImagePickerGetx/ImagePickerHome.dart';
 void main() {
   runApp(const MyApp());
 }
@@ -13,7 +14,8 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return GetMaterialApp(
-      home: MarkFavScreen(),
+      home: ImagePickerHome(),
+      // home: MarkFavScreen(),
     );
   }
 }
