@@ -1,3 +1,4 @@
+import 'package:color_grading_switch/Login/LoginPage.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:color_grading_switch/Example_switch/Myswitch.dart';
@@ -14,7 +15,8 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return GetMaterialApp(
-      home: ImagePickerHome(),
+      home: LoginPage(),
+      // home: ImagePickerHome(),
       // home: MarkFavScreen(),
     );
   }

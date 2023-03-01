@@ -26,6 +26,7 @@ class _ImagePickerHomeState extends State<ImagePickerHome> {
               crossAxisAlignment: CrossAxisAlignment.center,
               children: [
                 Center(child:CircleAvatar(
+                  radius: 40,
                     backgroundImage: controller1.imagePath.isNotEmpty ?
                     FileImage(File(controller1.imagePath.toString())) :
                     null
